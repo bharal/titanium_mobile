@@ -171,15 +171,15 @@ methods:
 
 
   - name: translate
-    summary: Returns a matrix constructed by applying a translation transform to this matrix.
+    summary: Returns a matrix constructed by applying a translation transform to this matrix. Use this to create a translation with set values
     returns:
         type: Titanium.UI.2DMatrix
     parameters:
       - name: tx
-        summary: Horizontal component of the translation.
+        summary: Horizontal component of the translation. This sets the change in the horizontal component of the object.
         type: Number
       - name: ty
-        summary: Vertical component of the translation.
+        summary: Vertical component of the translation. This sets the change in the vertical component of the object.
         type: Number
 properties:
   - name: a
